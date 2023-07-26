@@ -16,13 +16,21 @@ public class HelloController {
 
     @FXML
     private void fun() {
-
         label.setText(textField.getText());
         textField.clear();
-
-
     }
 
+    // jubayer
+    @FXML
+    private Button buttonJ;
+    @FXML
+    private Label labelJ;
+    @FXML
+    private TextField textFieldJ;
 
-
+    @FXML
+    private void funJ() {
+        labelJ.setText(textFieldJ.getText());
+        textFieldJ.clear();
+    }
 }
