@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -15,4 +13,3 @@
       <Label fx:id="label" layoutX="226.0" layoutY="286.0" prefHeight="18.0" prefWidth="203.0" text="bara" />
    </children>
 </AnchorPane>
->>>>>>> Aizen
