@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -15,4 +15,4 @@
       <Label fx:id="label" layoutX="286.0" layoutY="244.0" prefHeight="18.0" prefWidth="227.0" text="i will stand atop the heavens " />
    </children>
 </AnchorPane>
->>>>>>> Aizen
+
