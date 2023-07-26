@@ -8,8 +8,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gitprojekt2.HelloController">
    <children>
-      <Button fx:id="button" layoutX="202.0" layoutY="267.0" mnemonicParsing="false" onAction="#fun" prefHeight="96.0" prefWidth="195.0" text="X" />
-      <Label fx:id="label" layoutX="54.0" layoutY="34.0" prefHeight="112.0" prefWidth="484.0" text="nothing goes according to plan ; such is life " />
-      <TextField fx:id="textField" layoutX="163.0" layoutY="136.0" prefHeight="86.0" prefWidth="273.0" />
+      <Button fx:id="button" layoutX="180.0" layoutY="240.0" mnemonicParsing="false" onAction="#fun" text="Button" />
+      <TextField fx:id="textField" layoutX="23.0" layoutY="240.0" />
+      <Label fx:id="label" layoutX="286.0" layoutY="244.0" prefHeight="18.0" prefWidth="227.0" text="i will stand atop the heavens " />
    </children>
 </AnchorPane>
