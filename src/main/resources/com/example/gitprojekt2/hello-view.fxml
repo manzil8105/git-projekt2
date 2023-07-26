@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.gitprojekt2.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gitprojekt2.HelloController">
+   <children>
+      <Button fx:id="button" layoutX="202.0" layoutY="267.0" mnemonicParsing="false" onAction="#fun" prefHeight="96.0" prefWidth="195.0" text="X" />
+      <Label fx:id="label" layoutX="54.0" layoutY="34.0" prefHeight="112.0" prefWidth="484.0" text="nothing goes according to plan ; such is life " />
+      <TextField fx:id="textField" layoutX="163.0" layoutY="136.0" prefHeight="86.0" prefWidth="273.0" />
+   </children>
+</AnchorPane>
